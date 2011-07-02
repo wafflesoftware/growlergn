@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {pickBrowser = id; prefsChanged = id; }; 
+            CLASS = PrefsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                abIcons = NSButton; 
+                bodyFormat = NSTextField; 
+                chosenBrowser = NSPopUpButton; 
+                maxNot = NSStepper; 
+                maxNotT = NSTextField; 
+                showMess = NSButton; 
+                titleFormat = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
